@@ -12,7 +12,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-   height: 100%;
+  height: 100%;
   width: 100%;
   background: #111111;
   animation: animateBg 10s linear infinite;
@@ -245,16 +245,16 @@ text-align: center;
 }
 
 #active label:hover{ /*поведение чекбокса при наведении*/
-background: #76c8ff;
-border-color: #777 !important; /*выполнение в любом случае*/
+background: #6C63FF;
+    border-color: #6C63FF !important /*выполнение в любом случае*/
 }
 
 /*цвет активного лейбла при активации чекбокса*/
 #switch1:checked ~ #active label:nth-child(1),
 #switch2:checked ~ #active label:nth-child(2),
 #switch3:checked ~ #active label:nth-child(3){
-background: #18a3dd;
-border-color: #18a3dd !important;
+background: #6C63FF;
+    border-color: #6C63FF !important
 }
 
 #slides .image{ /*анимация пролистывания изображений*/
