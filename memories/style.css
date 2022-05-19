@@ -22,9 +22,17 @@ body{
         max-width: 1200px;
         margin: 0 auto;
     }
+
     
     .btn_play-again-btn{
 background-color: #6C63FF;
+    }
+a{
+        text-decoration: none;
+        color: #fff;
+    }
+    a:hover{
+        color: #6C63FF;
     }
     section {
         position: fixed;
