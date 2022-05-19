@@ -195,58 +195,59 @@ body{
   margin: 0 auto;
 }
 .header1{
-  width: 100%;    
-  display: flex;
-  top:0;
-  position: sticky;
-  background-color: #111111;
-  height: 115px;
-}
-.header__inner{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo {
-  margin-top: -10px;
-  margin-left: -100px;
-}
-.text_menu {
-  font-family: 'Recursive', sans-serif;  
-  font-size: 14px;
-  font-weight: 400;
-  width: 280px;
-  height: 34px;
-  color: #fff;
-  margin-top: -75px;
-  margin-left: -80px;
-}
-.menu {
-  display: flex;
-  justify-content: space-between;
-  width: 65%;
-  font-size: 18px;
-  z-index: 1;
-  font-family: 'Recursive', sans-serif;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: -75px;
-}  
-.menu__link {
-  display: inline-block;
-  vertical-align: top;
-  text-decoration: none;
-  color: #fff;
-  border-bottom: 4px solid transparent;
-  padding-bottom: 5px;
-  transition: .3s linear;
-} 
-.menu__link:hover {
-  border-bottom: 4px solid #6C63FF;
-} 
-.menu__link.active {
-  border-bottom: 4px solid #6C63FF;
-}
+        width: 100%;
+        display: flex;
+        top:0;
+        position: sticky;
+        background-color: #111111;
+        height: 115px;
+        z-index: 10;
+        }
+        .header__inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .logo {
+        margin-top: -10px;
+        margin-left: -140px;
+        }
+        .text_menu {
+        font-family: 'Recursive', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        width: 280px;
+        height: 34px;
+        color: #fff;
+        margin-top: -75px;
+        margin-left: -80px;
+        }
+        .menu {
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+        font-size: 18px;
+        z-index: 1;
+        font-family: 'Recursive', sans-serif;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: -75px;
+        }
+        .menu__link {
+        display: inline-block;
+        vertical-align: top;
+        text-decoration: none;
+        color: #fff;
+        border-bottom: 4px solid transparent;
+        padding-bottom: 5px;
+        transition: .3s linear;
+        }
+        .menu__link:hover {
+        border-bottom: 4px solid #6C63FF;
+        }
+        .menu__link.active {
+        border-bottom: 4px solid #6C63FF;
+        }
 .block1{
   margin-top: 66px;
 }
