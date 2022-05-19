@@ -81,114 +81,114 @@ body{
         display: none;
         }
 .logo_burger {
-  width: 85px;
-  height: 85px;
-  margin-left: -50px;
-  }
-  
-  .container11 {
-  margin: auto;
-  width: 100%;
-  background-color: #111111;
-  color: #fff;
-  text-align: center;
-  height: 80px;
-  visibility: hidden;
-  top: 0;
-  position: fixed;
-      z-index: 1;
-  }
-  
-  #check-menu {
-  display: none;
-  }
-  
-  label {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-  line-height: 40px;
-  font-size: 25px;
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 700px;
-  
-  }
-  
-  
-  .burger-line {
-  position: absolute;
-  top: 33px;
-  right: 100px;
-  width: 35px;
-  height: 2px;
-  background-color: #fff;
-  transition: .4s all;
-  }
-  
-  .burger-line:nth-of-type(2),
-  .burger-line:nth-of-type(3) {
-  top: 43px;
-  right: 100px;
-  
-  }
-  
-  .burger-line:nth-of-type(4) {
-  top: 53px;
-  right: 100px;
-  }
-  
-  .main-menu {
-  display: block;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  max-height: 0;
-  font-size: 0;
-  overflow: hidden;
-  transform: translateY(100%);
-  transition: .4s all;
-  }
-  
-  .main-menu a {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  color: #fff;
-  font-family: 'Recursive', sans-serif;
-  font-size: 26px;
-  background-color: #111111;
-  text-decoration: none;
-  border: 1px solid #6C63FF;
-  }
-  
-  .main-menu a:hover {
-  background-color: #6C63FF;
-  
-  }
-  
-  #check-menu:checked ~ .main-menu {
-  max-height: 500px;
-  font-size: 16px;
-  }
-  
-  #check-menu:checked ~ .burger-line:nth-of-type(1),
-  #check-menu:checked ~ .burger-line:nth-of-type(4) {
-  display: none;
-  }
-  
-  #check-menu:checked ~ .burger-line:nth-of-type(2) {
-  transform: rotate(45deg);
-  }
-  
-  #check-menu:checked ~ .burger-line:nth-of-type(3) {
-  transform: rotate(-45deg);
-  }
+            width: 85px;
+            height: 85px;
+            margin-left: -110px;
+            }
+            
+            .container11 {
+            margin: auto;
+            width: 100%;
+            background-color: #111111;
+            color: #fff;
+            text-align: center;
+            height: 80px;
+            visibility: hidden;
+            top: 0;
+            position: fixed;
+            
+            }
+            
+            #check-menu {
+            display: none;
+            }
+            
+            .burger {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            line-height: 40px;
+            font-size: 25px;
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 700px;
+            
+            }
+            
+            
+            .burger-line {
+            position: absolute;
+            top: 33px;
+            right: 100px;
+            width: 35px;
+            height: 2px;
+            background-color: #fff;
+            transition: .4s all;
+            }
+            
+            .burger-line:nth-of-type(2),
+            .burger-line:nth-of-type(3) {
+            top: 43px;
+            right: 100px;
+            
+            }
+            
+            .burger-line:nth-of-type(4) {
+            top: 53px;
+            right: 100px;
+            }
+            
+            .main-menu {
+            display: block;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            max-height: 0;
+            font-size: 0;
+            overflow: hidden;
+            transform: translateY(100%);
+            transition: .4s all;
+            }
+            
+            .main-menu a {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            color: #fff;
+            font-family: 'Recursive', sans-serif;
+            font-size: 26px;
+            background-color: #111111;
+            text-decoration: none;
+            border: 1px solid #6C63FF;
+            }
+            
+            .main-menu a:hover {
+            background-color: #6C63FF;
+            
+            }
+            
+            #check-menu:checked ~ .main-menu {
+            max-height: 500px;
+            font-size: 16px;
+            }
+            
+            #check-menu:checked ~ .burger-line:nth-of-type(1),
+            #check-menu:checked ~ .burger-line:nth-of-type(4) {
+            display: none;
+            }
+            
+            #check-menu:checked ~ .burger-line:nth-of-type(2) {
+            transform: rotate(45deg);
+            }
+            
+            #check-menu:checked ~ .burger-line:nth-of-type(3) {
+            transform: rotate(-45deg);
+            }
 .container{
   width: 100%;
   max-width: 1200px;
