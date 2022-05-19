@@ -670,6 +670,9 @@ margin-right: -100px;
   .undertitle{
     font-size: 24px;
   }
+  .text_image, .text_string{
+  font-size: 24px;
+  }
   .main_title{
     margin-top: 120px;
   }
