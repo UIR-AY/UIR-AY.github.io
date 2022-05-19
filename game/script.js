@@ -105,7 +105,7 @@ function timer() {
 				seconds = 0;
 			}
 		// Update the timer in HTML with the time it takes the user to play the game
-		timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Timer: " + minutes + " Mins " + seconds + " Secs" ;
+		timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Время: " + minutes + " Мин. " + seconds + " Сек. " ;
 	}, 1000);
 }
 
@@ -128,7 +128,7 @@ function resetEverything() {
 	timeStart = false;
 	seconds = 0;
 	minutes = 0;
-	timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Timer: 00:00";
+	timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Время: 00:00";
 	// Reset star count and the add the class back to show stars again
 	star[1].firstElementChild.classList.add("fa-star");
 	star[2].firstElementChild.classList.add("fa-star");
