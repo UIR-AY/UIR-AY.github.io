@@ -8,6 +8,13 @@ body {
     background-size: 100%;
     margin: 0;
 }
+a{
+text-decoration: none;
+color: #fff;
+}
+a:hover{
+color: #6C63FF;
+}
 
 .container, .container_footer{
 
