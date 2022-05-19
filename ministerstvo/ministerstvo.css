@@ -171,10 +171,7 @@ article img{ /*размер изображений слайдера*/
 width: 60%;
 }
 
-#desktop:checked ~ #slider{ /*размер всего слайдера*/
-max-width: 960px; /*максимальнная длинна*/
 
-}
 
 /*настройка переключения и положения для левой стрелки*/
 /*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
@@ -693,9 +690,6 @@ margin-left: 65px;
 .block1{
   margin-top: 120px;
 }
-  .slider{
-  margin-right: 80px;
-  }
 }
 @media only screen and (max-device-width:660px){
 .slider{
@@ -718,6 +712,9 @@ margin-left: 65px;
 .block1{
   margin-top: 120px;
 }
+  .slider{
+  margin-right: 80px;
+  }
 }
 @media only screen and (max-device-width:321px){
   .slider{
