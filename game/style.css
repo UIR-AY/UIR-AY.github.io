@@ -27,6 +27,13 @@ Global Styles
     h1,h2,h3,h4,h5,h6{
     margin: 0;
     }
+a{
+        text-decoration: none;
+        color: #fff;
+    }
+    a:hover{
+        color: #6C63FF;
+    }
     .container1{
         width: 100%;
         max-width: 1200px;
