@@ -704,6 +704,9 @@ margin-right: -100px;
   .header1{
     display: none;
   }
+    .image_company{
+  width: 700px;
+  }
 }
 @media only screen and (max-device-width:450px){
   .block_image{
@@ -768,5 +771,8 @@ margin-right: -100px;
   }
   .header1{
     display: none;
+  }
+  .image_company{
+  width: 700px;
   }
 }
