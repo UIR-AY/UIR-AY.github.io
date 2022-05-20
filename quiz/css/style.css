@@ -108,7 +108,7 @@ color: #6C63FF;
 .test_nazv {
     color: #fff;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 35px;
+    font-size: 42px;
     font-weight: bold;
     margin-top: 75px;
     text-align: center;
@@ -267,7 +267,7 @@ color: #6C63FF;
  .question {
      color: #fff;
      font-family: 'Recursive', sans-serif;
-     font-size: 20px;
+     font-size: 26px;
      margin-top: 100px;
      text-align: center;
      font-weight: 700;
@@ -282,7 +282,7 @@ color: #6C63FF;
     margin-left: 0;
     color: #111111;
     font-family: 'Recursive', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.5;
  }
 
@@ -306,7 +306,7 @@ color: #6C63FF;
 
 .result {
     padding: 50px 0;
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Recursive', sans-serif;
     width: 75%;
     margin-left: auto;
