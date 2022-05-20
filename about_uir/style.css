@@ -4,7 +4,7 @@ padding: 0;
 background-color: #111111;
 width: 100%;
 background-size: 100%;
-line-height: 1.6;
+
 }
 
 *,
@@ -711,7 +711,7 @@ margin-top: 40px;
 .useful_links {
 display: flex;
 flex-direction: column;
-
+width: 170px;
 }
 
 .links {
