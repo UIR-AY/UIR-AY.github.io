@@ -725,6 +725,9 @@ margin-left: 65px;
 .block1{
   margin-top: 120px;
 }
+    section {
+          margin-top:-10%;
+  }
 }
 @media only screen and (max-device-width:660px){
 .slider{
@@ -749,6 +752,9 @@ margin-left: 65px;
 }
   .slider{
   margin-right: 80px;
+  }
+    section {
+          margin-top:-10%;
   }
 }
 @media only screen and (max-device-width:321px){
@@ -792,5 +798,8 @@ margin-left: 65px;
 }
   .slider{
   margin-right: 80px;
+  }
+    section {
+          margin-top:-10%;
   }
   }
