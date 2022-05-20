@@ -24,6 +24,7 @@ color: #6C63FF;
         background: #111111;
         animation: animateBg 10s linear infinite;
         z-index: 1001;
+        margin-top:-10%;
         }
         
         @keyframes animateBg {
