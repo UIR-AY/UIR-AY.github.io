@@ -24,7 +24,7 @@ color: #6C63FF;
         background: #111111;
         animation: animateBg 10s linear infinite;
         z-index: 1001;
-        margin-top:-10%;
+
         }
         
         @keyframes animateBg {
@@ -658,6 +658,9 @@ margin-right: -100px;
     .title{
       margin-top: 40px;
     }
+    section {
+          margin-top:-10%;
+  }
 }
 @media only screen and (max-device-width:660px){
   .block_image{
@@ -726,6 +729,9 @@ margin-right: -100px;
     .image_company{
   width: 700px;
   }
+    section {
+          margin-top:-10%;
+  }
 }
 @media only screen and (max-device-width:450px){
   .block_image{
@@ -793,5 +799,8 @@ margin-right: -100px;
   }
   .image_company{
   width: 700px;
+  }
+  section {
+          margin-top:-10%;
   }
 }
