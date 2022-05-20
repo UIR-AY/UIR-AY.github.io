@@ -776,6 +776,7 @@ flex-direction: column;
 }
 .adaptiveProga{
 display: flex;
+justify-content: center;
 }
 /*burger*/
 .logo_burger {
@@ -1061,7 +1062,6 @@ display: none;
 .programmer_text_mini{
 width: 70vw;
 font-size: 18px;
-padding-left: 10%;
 }
 .programmer_text_big{
 font-size: 48px;
