@@ -60,7 +60,7 @@ function showResult() {
     document.querySelector('main').appendChild(img);
     
     let reloadButton = document.createElement('button');
-    reloadButton.innerHTML = 'Пройти еще раз';
+    reloadButton.innerHTML = 'Пройти ещё раз';
     reloadButton.classList.add('reload-button');
     document.querySelector('main').appendChild(reloadButton);
     }
