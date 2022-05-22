@@ -40,7 +40,7 @@ color: #6C63FF;
         background: #111111;
         animation: animateBg 10s linear infinite;
         z-index: 1001;
-        margin-top: -10%;
+
         }
         
         @keyframes animateBg {
@@ -131,10 +131,10 @@ color: #6C63FF;
         margin-top: -10px;
         margin-left: -60px;
     }
-       .logo2 {
+     /*  .logo2 {
        width: 125px;
        height: 125px;
-    }
+    }*/
     
     .text_menu {
         font-family: 'Recursive', sans-serif;  
