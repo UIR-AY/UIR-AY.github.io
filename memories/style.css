@@ -131,11 +131,10 @@ a{
         margin-top: -10px;
         margin-left: -60px;
     }
-    
-    /*.logo2 {
+       .logo2 {
        width: 125px;
        height: 125px;
-    }*/
+    }
     
     .text_menu {
         font-family: 'Recursive', sans-serif;  
@@ -175,6 +174,7 @@ a{
      .menu__link.active {
         border-bottom: 4px solid #6C63FF;
      }
+        
         a{
             text-decoration: none;
             color: #111111;
