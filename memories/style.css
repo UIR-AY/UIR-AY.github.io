@@ -239,8 +239,8 @@ width: 45em
 
 .circle1{
 position: absolute;
-width: 939px;
-height: 862px;
+width: 50%;
+height: 80%;
 right:0;
 border: 16px solid #6C63FF;
 border-radius: 50%;
@@ -251,8 +251,8 @@ position: absolute;
 margin-top: 37px;
 margin-right: 45px;
 right: 0;
-width: 842.01px;
-height: 779.8px;
+width: 45%;
+height: 70%;
 border: 8px solid #6C63FF;
 border-radius: 50%;
 z-index: -1;
@@ -263,8 +263,8 @@ z-index: -1;
 }
 .circle1_down{
 position: absolute;
-width: 1039px;
-height: 962px;
+width: 50%;
+height: 80%;
 left:0;
 border: 16px solid #6C63FF;
 border-radius: 50%;
@@ -276,8 +276,8 @@ position: absolute;
 margin-top: -120px;
 margin-left: 45px;
 left: 0;
-width: 942px;
-height: 879.8px;
+width: 45%;
+height: 70%;
 border: 8px solid #6C63FF;
 border-radius: 50%;
 
