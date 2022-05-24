@@ -756,6 +756,12 @@ margin-left: 65px;
     section {
           margin-top:-10%;
   }
+    .title{
+   font-size: 34px;
+  }
+  .undertitle{
+    font-size: 26px;
+  }
 }
 @media only screen and (max-device-width:321px){
   .slider{
@@ -769,12 +775,6 @@ margin-left: 65px;
      flex-direction: column;
      margin-top: 50px;
    } 
-   .title{
-    font-size: 32px;
-   }
-   .undertitle{
-     font-size: 24px;
-   }
    .general{
     padding: 1.5%;
   }
@@ -801,5 +801,11 @@ margin-left: 65px;
   }
     section {
           margin-top:-10%;
+  }
+    .title{
+   font-size: 34px;
+  }
+  .undertitle{
+    font-size: 26px;
   }
   }
