@@ -22,12 +22,16 @@ width: 100%;
 max-width: 1200px;
 margin: 0 auto;
 }
-    .container1, .container{
+    .container1{
         width: 100%;
         max-width: 1200px;
         margin: 0 auto;
     }
-
+.container {
+display: flex;
+justify-content: left;
+flex-direction: column;
+}
     
     .btn_play-again-btn{
 background-color: #6C63FF;
