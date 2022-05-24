@@ -23,7 +23,12 @@ color: #fff;
 a:hover{
 color: #6C63FF;
 }
-.container1, .container{
+.container, .container_footer {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+.container1{
 width: 100%;
 max-width: 1200px;
 margin: 0 auto;
