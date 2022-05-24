@@ -176,7 +176,7 @@ right:0;
 margin-top:100px;
 }
 .container2{
-margin-left: 120px;
+
 margin-top: 80px;
 }
 .text_flex{
@@ -1059,8 +1059,9 @@ display: none;
 }
 
 .programmer_text_mini{
-width: 70vw;
+width: 80vw;
 font-size: 18px;
+text-align: center;
 }
 .programmer_text_big{
 font-size: 48px;
