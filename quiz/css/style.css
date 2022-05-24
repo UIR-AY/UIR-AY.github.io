@@ -63,14 +63,14 @@ color: #6C63FF;
     margin-left: 20px;
 }
 .menu {
-    display: flex;
-    justify-content: space-between;
-    width: 65%;
-    font-size: 18px;
-    z-index: 1000;
-    font-family: 'Recursive', sans-serif;
-    margin-left: 50px;
-    margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+width: 50%;
+font-size: 18px;
+z-index: 1000;
+font-family: 'Recursive', sans-serif;
+margin-left: 60px;
+margin-bottom: 20px;
 }
 
 .menu__link {
