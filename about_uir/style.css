@@ -1002,9 +1002,7 @@ padding-left: 40px;
         
 }
 @media only screen and (max-device-width: 1001px){
-.logo_footer {
-margin-right: -100px;
-}
+
 .adaptiveRectangle1{
     height: 600px;
     width: 47%;
