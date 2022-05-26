@@ -863,11 +863,7 @@ width: 120%;
     padding-left: 5%;
     }
 }
-@media only screen and (max-device-width: 1001px){
-.logo_footer {
-margin-right: -100px;
-}
-}
+
 
 @media only screen and (max-device-width: 1001px){
 .container_footer{
